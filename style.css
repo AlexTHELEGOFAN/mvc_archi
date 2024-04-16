@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#cardsList li {
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+}
+
+#cardsList li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.images-list {
+    position: relative;
+}
+
+.chest1 {
+    position: absolute;
+    transform: rotate(0.001turn);
+    top: 275px;
+}
+
+.chest2 {
+    position: absolute;
+    left: 130px;
+    top: 275px;
+    transform: rotate(0.02turn);
+}
+
+.chest3 {
+    position: absolute;
+    left: 60px;
+    top: 130px;
+    transform: rotate(-0.02turn);
+    z-index: -1;
+}
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.heritage {
+    background-color: #c8ff00;
+}
